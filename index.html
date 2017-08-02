@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            height: auto;
+        }
+        header{
+            width: 100%;
+            height:40px;
+            line-height: 40px;
+            background: red;
+            padding-top: 5px;
+        }
+        header input{
+            margin: auto;
+            display: block;
+            width: 95%;
+            height:30px;
+            border: none;
+            border-radius: 15px;
+            padding-left: 30px;
+        }
+        nav{
+            width: 100%;
+            height: auto;
+        }
+        nav ul{
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+        }
+        nav li{
+            float: left;
+            text-align: center;
+            flex: 1;
+        }
+
+        .col{
+            color:red;
+        }
+        .main{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .main dl{
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+            padding: 0 5px;
+        }
+        .main dt{
+            float:right;
+            width: 30%;
+            margin: 15px 0;
+        }
+        .main dd{
+            float:left;
+        }
+        .main h2{
+            font-size: 16px;
+            line-height: 40px;
+            margin-bottom: 15px;
+        }
+        .main p{
+            font-size: 14px;
+            color:#c8c8c8;
+        }
+        .main p span{
+            float:right;
+        }
+        footer{
+            width: 100%;
+            height: 45px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            display: flex;
+            background: #fff;
+        }
+        footer dl{
+            flex: 1;
+            text-align: center;
+        }
+        footer dl dd{
+            font: 12px;
+            margin-top: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <input type="text" placeholder="在此输入要翻译的文本">
+        </header>
+        <nav>
+            <ul>
+                <li>推荐</li>
+                <li class="col">有声美文</li>
+                <li>动听英乐</li>
+                <li>双语悦读</li>
+            </ul>
+        </nav>
+        <div class="main">
+            <dl>
+                <dt><img src="img/dl_03.jpg"></dt>
+                <dd>
+                    <h2>【每日一句】走，约饭去！</h2>
+                    <p>英语功夫<span>34赞</span></p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img src="img/dl_03.jpg"></dt>
+                <dd>
+                    <h2>【每日一句】走，约饭去！</h2>
+                    <p>英语功夫<span>34赞</span></p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img src="img/dl_03.jpg"></dt>
+                <dd>
+                    <h2>【每日一句】走，约饭去！</h2>
+                    <p>英语功夫<span>34赞</span></p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img src="img/dl_03.jpg"></dt>
+                <dd>
+                    <h2>【每日一句】走，约饭去！</h2>
+                    <p>英语功夫<span>34赞</span></p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img src="img/dl_03.jpg"></dt>
+                <dd>
+                    <h2>【每日一句】走，约饭去！</h2>
+                    <p>英语功夫<span>34赞</span></p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img src="img/dl_03.jpg"></dt>
+                <dd>
+                    <h2>【每日一句】走，约饭去！</h2>
+                    <p>英语功夫<span>34赞</span></p>
+                </dd>
+            </dl>
+        </div>
+        <footer>
+            <dl class="bg">
+                <dt class="icon iconfont">&#xe64e;</dt>
+                <dd>词典</dd>
+            </dl>
+            <dl>
+                <dt class="icon iconfont">&#xe646;</dt>
+                <dd>翻译</dd>
+            </dl>
+            <dl>
+                <dt class="icon iconfont">&#xe640;</dt>
+                <dd>精品课</dd>
+            </dl>
+            <dl>
+                <dt class="icon iconfont">&#xe650;</dt>
+                <dd>发现</dd>
+            </dl>
+            <dl>
+                <dt class="icon iconfont">&#xe62e;</dt>
+                <dd>我的</dd>
+            </dl>
+        </footer>
+    </div>
+</body>
+</html>
